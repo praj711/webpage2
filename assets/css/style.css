@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* tophead section start */
+.tophead{
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    background-color: #05571d;
+}
+.tophead ul li{
+    color: #fff;
+    margin: 0px 3px;
+    display: inline-block;
+}
+.tophead ul li a{
+    color: #c2e4c6;
+}
+/* tophead section end */
+/* header section start */
+header{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background: #3fba64;
+    line-height: 100px;
+    padding: 0px 100px;
+}
+header h1{
+    font-size: 50px;
+    margin-right: 20px;
+}
+header h1, header h3{
+    display: inline-block;
+}
+/* header section end */
+/* navbar section start */
+nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 100px;
+    background: #83e3a0;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    font-size: 105%;
+    transition: 0.3s linear;
+}
+/* navbar section end */
+/* content section start */
+section{
+    width: 100%;
+    padding: 0px 100px;
+}
+section main{
+    width: 80%;
+    padding-top: 20px;
+    float: left;
+}
+section aside{
+    width: 20%;
+    float: right;
+    padding:20px 15px;
+    background: #ccc;
+}
+section main p blockquote{
+    padding-left: 50px;
+
+}
+aside ul li{
+    list-style: none;
+    font-weight: 600;
+}
+aside ul li ul li{
+    font-weight: normal;
+    padding-left: 20px;
+}
+/* content section end */
+/* main section start */
+/* main section end */
+/* footer section start */
+footer{
+    width: 100;
+    height: 100px;
+    color: #fff;
+    padding: 20px 100px;
+    background: #3fba64;
+}
+footer .links{
+width: 30%;
+float: left;
+}
+footer .follow{
+    width: 30%;
+    float: left;
+    }
+footer .copy{
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+/* footer section end */
