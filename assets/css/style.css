@@ -1,122 +1,134 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
-/* tophead section start */
-.tophead{
+  }
+  
+  /* top head section start  */
+  .tophead {
+    background-color: #024d3a;
     width: 100%;
     height: 40px;
-    align-items: center;
     display: flex;
-    padding: 0px 100px;
     justify-content: space-between;
-    background-color: #05571d;
-}
-.tophead ul li{
+    align-items: center;
     color: #fff;
-    margin: 0px 3px;
+    padding: 0px 100px;
+  }
+  .tophead ul li {
     display: inline-block;
-}
-.tophead ul li a{
-    color: #c2e4c6;
-}
-/* tophead section end */
-/* header section start */
-header{
+    color: #fff;
+    margin: 0px 5px;
+  }
+  .tophead ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  /* top head section end  */
+  /* headr section start  */
+  header {
+    background: #029155;
     width: 100%;
     height: 100px;
     color: #fff;
-    background: #3fba64;
     line-height: 100px;
-    padding: 0px 100px;
-}
-header h1{
+    padding: 0px 20px;
+  }
+  header h1 {
     font-size: 50px;
-    margin-right: 20px;
-}
-header h1, header h3{
+    margin-left: 80px;
+  }
+  header h3 {
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  header h1,
+  h3 {
     display: inline-block;
-}
-/* header section end */
-/* navbar section start */
-nav{
+  }
+  /* headr section end  */
+  /* nav section start  */
+  nav {
+    background: #28ee74;
+    height: 50px;
     width: 100%;
-    height: 40px;
-    line-height: 40px;
-    padding: 0px 100px;
-    background: #83e3a0;
-}
-nav ul li{
+    line-height: 50px;
+  }
+  nav ul li {
     display: inline-block;
-    margin-right: 20px;
-    list-style: none;
-}
-nav ul li a{
-    color: black;
+    margin: 0 10px;
+    margin-left: 105px;
+  }
+  nav ul li a {
     text-decoration: none;
+    color: #000;
     font-weight: 600;
-}
-nav ul li a:hover{
+  }
+  nav ul li a:hover {
     font-size: 105%;
-    transition: 0.3s linear;
-}
-/* navbar section end */
-/* content section start */
-section{
+    transition: 0.3s;
+  }
+  /* nav section end */
+  /* content section start  */
+  section {
     width: 100%;
-    padding: 0px 100px;
-}
-section main{
+    padding: 0 100px;
+  }
+  section main {
     width: 80%;
-    padding-top: 20px;
     float: left;
-}
-section aside{
+    padding-top: 10px;
+  }
+  section main ul li {
+    margin-left: 50px;
+  }
+  section aside {
     width: 20%;
     float: right;
-    padding:20px 15px;
-    background: #ccc;
-}
-section main p blockquote{
-    padding-left: 50px;
-
-}
-aside ul li{
+    background-color: #d8cccccb;
+    padding: 20px 0 0 15px;
+  }
+  aside ul li {
+    font-weight: 700;
     list-style: none;
-    font-weight: 600;
-}
-aside ul li ul li{
-    font-weight: normal;
-    padding-left: 20px;
-}
-/* content section end */
-/* main section start */
-/* main section end */
-/* footer section start */
-footer{
-    width: 100;
+  }
+  aside ul li ul li {
+    font-weight: 200;
+    padding: 0px 0px 0px 20px;
+  }
+  /* content section end  */
+  /* footer section start  */
+  footer {
+    width: 100%;
     height: 100px;
+    background-color: #054a2d;
     color: #fff;
-    padding: 20px 100px;
-    background: #3fba64;
-}
-footer .links{
-width: 30%;
-float: left;
-}
-footer .follow{
-    width: 30%;
+    padding: 10px;
+  }
+  footer p a {
+    text-decoration: none;
+    color: #fff;
+  }
+  footer .links {
     float: left;
-    }
-footer .copy{
-    width: 40%;
+    width: 33%;
+    padding-left: 50px;
+  }
+  footer .follow {
+    float: left;
+    width: 33%;
+  }
+  footer.copy {
     float: right;
+    width: 34%;
     text-align: right;
-}
-/* footer section end */
-/* Media Queries start */
-@media screen and (max-width:991px) {
+  }
+
+  /* footer section end  */
+  
+  /* Media Queries start */
+  @media screen and (max-width:991px) {
     .tophead{
         height: auto;
         padding: 10px;
